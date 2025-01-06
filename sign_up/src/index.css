@@ -1,0 +1,21 @@
+/* Hides number spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+
+.table-overFlow::-webkit-scrollbar {
+  display: none;
+}
+.table-overFlow {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
